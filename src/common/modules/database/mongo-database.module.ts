@@ -2,7 +2,6 @@ import { Module, Global } from '@nestjs/common'
 import { ConfigType } from '@nestjs/config'
 import { MongooseModule } from '@nestjs/mongoose'
 import { MongoClient } from 'mongodb'
-import * as fs from 'fs'
 
 import config from '../../../config'
 
